@@ -13,6 +13,6 @@ sudo wget --progress=bar -q 'https://github.com'$(cat /tmp/latest | grep -o -E '
 sudo dpkg -i /tmp/atom-amd64.deb
 
 printf "\n----Intalling Additonal Atom Packages----\n\n"
-apm install --packages-files package-list.txt
+apm install --packages-files atom-package-list.txt
 
 chown -Rv  $USER.$USER  ~/.atom
