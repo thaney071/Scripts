@@ -1,0 +1,38 @@
+"*":
+  core:
+    themes: [
+      "seti-ui"
+      "monokai"
+    ]
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    tabLength: 4
+    tabType: "soft"
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "seti-ui":
+    fileIcons: false
+  "todo-show":
+    findTheseTodos: [
+      "FIXME"
+      "TODO"
+      "CHANGED"
+      "XXX"
+      "IDEA"
+      "HACK"
+      "REVIEW"
+      "NOTE"
+    ]
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+    ignoreWhitespaceOnCurrentLine: false
+".diff.source":
+  editor:
+    tabLength: 4
